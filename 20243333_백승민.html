@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>상품 주문서</h1>
+
+    <form>
+        <fieldset>
+            <legend>개인 정보</legend>
+            <ul>
+                <li>
+                    <label for="name">주문자 이름</label>
+                    <input type="text" id="name">                    
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <label for="number">전화번호</label>
+                    <input type="password" id="password">                    
+                </li>
+            </ul>
+        </fieldset>
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>배송 정보</legend>
+            <ul>
+                <li>
+                   배송옵션: 
+                   <label><input type="radio" name="chk_info" value="old">기존 배송지</label>
+                   <label><input type="radio" name="chk_info" value="new">새 배송지</label>                
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <label for="address">주소</label>
+                    <input type="text" id="address">                    
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <label for="요청사항">요청사항</label>
+                    <select name="" id="">
+                        <option value="0">요청사항을 선택해주세요</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                      </select>                  
+                </li>
+            </ul>
+        </fieldset>
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>주문 정보</legend>
+            상품
+            <div>
+                <input type="checkbox" id="1kg" checked/>
+                <label for="scales">방울토마토1kg <s>10,000원</s> <b>8,000원</b> <input type="text">박스</label>              
+            </div>
+            <div>
+                <input type="checkbox" id="2kg"/>
+                <label for="scales">방울토마토2kg <s>20,000원</s> <b>16,000원</b> <input type="text">박스</label>                                
+            </div>
+            <div>
+                <input type="checkbox" id="3kg"/>
+                <label for="scales">방울토마토3kg <s>30,000원</s> <b>24,000원</b> <input type="text">박스</label>                                
+            </div>
+            <div>
+                기타 사항<textarea></textarea>
+            </div>
+        </fieldset>
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>결제 수단</legend>
+            <ul>
+                <li>
+                    <label><input type="radio" name="chk_info" value="">계좌 이체</label>                 
+                </li>
+                <li>
+                    <label><input type="radio" name="chk_info" value="">카드 결제</label>                 
+                </li>
+                <li>
+                    <label><input type="radio" name="chk_info" value="">일반 결제</label>                 
+                </li>
+            </ul>
+        </fieldset>
+    </form>
+    <form>
+        <div>
+            <button type="reset">초기화</button>
+            <button type="submit">결제하기</button>
+        </div>
+    </form>
+
+</body>
+</html>
