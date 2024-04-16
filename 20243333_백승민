@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>    
+
+<body>
+<div>
+    <ul>
+        <a href="#test1"><li>특성</li></a>
+        <a href="#test2"><li>효능</li></a>
+        <a href="#test3"><li>주문하기</li></a>
+        <a href="#test4"><li>상품정보</li></a>
+    </ul>
+</div>
+<hr>
+<div id="test1">
+    <h3>방울 토마토</h3>
+    <img src="tomato.jpg">
+    <p>&nbsp;&nbsp;&nbsp;생산된 방울토마토</p>
+</div>
+<hr>
+<div id="test2">
+    <h1>효능</h1>
+    <ul>
+        <li><span style="background-color:yellow">향산화 작용</span>으로 노화 방지에 좋다.</li>
+        <li><span style="background-color:yellow">칼륨 함량</span>이 높아서 혈압 조절에 좋다.</li>
+        <li><span style="background-color:yellow">비타민 C 함량</span>이 높아서 면역력 향상에 좋다.</li>
+        <li><span style="background-color:yellow">체내 독소 제거와 간 기능 개선</span>에도 효과가 있다.</li>
+    </ul>
+</div>
+<hr>
+<div id="test3">
+    <h4>주문하기</h4>
+    <p>방울 토마토는 <b><u>1Kg에 2만원</u></b>입니다. 주문하시려면 아래 링크를 클릭해주세요.</p>
+    <button>주문하기</button>
+</div>
+<hr>
+<div id="test4">
+    <h4>상품정보</h4>
+</div>
+<div>
+    <table border="1">
+        <tr>
+          <th>상품번호</th>
+          <td>12345</th>
+        </tr>
+        <tr>
+            <th>상품상태</th>
+            <td>신선</th>
+        </tr>
+        <tr>
+            <th>생산지</th>
+            <td>한국</th>
+        </tr>
+        <tr>
+            <th>품종</th>
+            <td>방울 토마토</th>
+        </tr>
+        <tr>
+            <th>수확시기</th>
+            <td>하절기</th>
+        </tr>
+      </table>
+      <img src="tomato.jpg" height="200" width="200">
+</div>
+<hr>
+<div>
+    <a href="#">Top으로 이동</a>
+</div>
+</body>
+</html>
